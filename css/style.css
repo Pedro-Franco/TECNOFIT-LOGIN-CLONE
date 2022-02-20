@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;   
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    width: 440px;
+    height: 89.8vh;
+    position: absolute;
+    background: #EFF0F4;
+    padding: 48px;
+    float: left;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.form img {
+    width: 194px;
+    height: 66px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+}
+
+.form h4 {
+    text-align: left;
+    font-size: 22px;
+    margin: 15px 0px 8px;
+}
+
+.form p {
+    font-family: arial,sans-serif;
+    text-align:left;
+    font-size: 17px;
+}
+
+#background {
+    float: right;
+    display:flex;
+    justify-content: center;
+}
+
+.fundo-imagem{
+    width: 72vw;
+    height: 100vh;
+    background-size: cover;
+    float: right;
+    display:flex;
+    justify-content: center;
+}
+
+#form-body {
+    width: 100%;
+    margin-top: 50px;
+    text-align:left;
+}
+
+.email {
+    font-size: 15px;
+    width: 95%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.senha {
+    font-size: 15px;
+    width: 95%;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+input:focus {
+    outline-color:rgba(200, 200, 200, 0.9);
+}
+
+#form-btn {
+    float: right;
+}
+
+.btn-esqueceu-senha {
+    margin-right: 20px;
+    color: #6C757D;
+    text-decoration: none;
+}
+
+.btn-entrar {
+    text-decoration: none;
+    background: #3155C9;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    transition: 0.1s;
+}
+
+.btn-esqueceu-senha:hover {
+    text-decoration: underline;
+}
+
+.btn-entrar:hover {
+    background: #0089F1;
+    transition: 0.1s;
+}
+
+#form-midias {
+    font-size: 16px;
+    height: 15vh;
+    margin-top: 80%;
+}
+
+#duvidas-div {
+    margin-top: 50px;
+}
+
+.duvidas {
+    font-weight: bold;
+    color: #6C757D;
+}
+
+#contatos-div {
+    margin-top: 10px;
+}
+
+#contatos-div span {
+    color: #6C757D;
+}
+
+span .contato-espaço {
+    margin-left: 10px;
+    margin-right: 10px;
+}
